@@ -6,7 +6,7 @@ export const userSuggest = [
     certification: true,
     following: true,
     imagesProfile:
-      "https://pbs.twimg.com/profile_images/791852580632604672/1BIDSxyC_400x400.jpg",
+      "https://res.cloudinary.com/lxhdev/image/upload/v1627892785/photo_1593642634315_48f5414c3ad9_c4059bfa1f.jpg",
     email: "@MarvelStudios",
   },
   {

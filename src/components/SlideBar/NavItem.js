@@ -7,8 +7,8 @@ function NavItem({ title, Icon, active }) {
       <div className="xl:px-2 h-12 space-x-3 flex xl:justify-end justify-center rounded-full xl:inline-flex items-center group-hover:bg-blue-50 transition duration-500">
         {Icon && (
           <Icon
-            className={`h-7 text-gray-500 group-hover:text-blue-400 ${
-              active && "text-blue-400"
+            className={`h-7  group-hover:text-blue-400 ${
+              active ? "text-blue-400" : "text-gray-500"
             }`}
           />
         )}

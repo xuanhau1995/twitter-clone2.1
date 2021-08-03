@@ -77,20 +77,23 @@ function LogIn() {
         onClick={register}
         onClose={toggleModal}
       />
-      <div className="grid grid-cols-12 relative">
-        <div className="col-span-7">
+      <div className="grid grid-cols-12 relative h-screen">
+        <div className="hidden sm:flex sm:col-span-4 md:col-span-7">
           <img
             className="object-cover h-full"
+            alt=""
+            loading="eager"
             src="https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png"
           />
         </div>
-        <div className="col-span-5 p-8">
-          <div className="h-full flex items-center">
+        <div className="col-span-12 sm:col-span-6 md:col-span-5 px-4 sm:p-8">
+          <div className="h-full w-full flex items-start pt-14 sm:pt-0 sm:items-center justify-center sm:justify-start">
             <div>
               <div>
                 <img
                   alt="logo"
                   className="h-10 mb-8"
+                  loading="eager"
                   src="https://logonoid.com/images/twitter-logo.png"
                 />
                 <h1 className="text-6xl font-bold mb-10">Happening now</h1>
@@ -98,7 +101,7 @@ function LogIn() {
                   Join Twitter Today.
                 </p>
               </div>
-              <form className="w-4/5 pt-8">
+              <form className="md:w-full lg:w-4/5 pt-8">
                 <>
                   <Login
                     onClick={loginToApp}

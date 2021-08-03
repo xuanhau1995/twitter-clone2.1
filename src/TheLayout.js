@@ -17,8 +17,8 @@ function TheLayout() {
   return (
     <div className="flex justify-between">
       <SlideBar />
-      <div className="min-h-screen flex-grow">
-        <div className=" min-h-screen flex space-x-2 2xl:w-4/5">
+      <div className="min-h-screen flex-grow lg:pr-10 xl:pr-10 2xl:pr-0">
+        <div className="min-h-screen flex space-x-2 2xl:w-4/5">
           <FeedSession />
           <Widgets />
         </div>

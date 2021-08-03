@@ -54,7 +54,7 @@ function Navbar() {
               <NavItem title="More" Icon={DotsCircleHorizontalIcon} />
             </nav>
             <div className="mt-3 xl:pr-7 flex justify-center">
-              <button className="xl:h-11 xl:w-full md:w-14 md:h-14  font-semibold bg-blue-400 flex justify-center items-center text-white rounded-full  hover:bg-blue-500 transition duration-500">
+              <button className="h-14 w-14 xl:h-11 xl:w-full md:w-14 md:h-14  font-semibold bg-blue-400 flex justify-center items-center text-white rounded-full  hover:bg-blue-500 transition duration-500">
                 <PlusIcon className="h-5 text-white flex xl:hidden" />
                 <p className="hidden xl:flex">Tweet</p>
               </button>

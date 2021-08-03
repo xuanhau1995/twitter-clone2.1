@@ -39,11 +39,14 @@ function Posts({
             <div className="py-1">
               <p className="text-sm leading-1 text-gray-700 mr-4">{message}</p>
               {postImage && (
-                <div className="py-2">
+                <div className="py-2 relative rounded-2xl z-10">
                   <img
                     alt="images-tweet"
+                    loading="eager"
                     src={postImage}
-                    className={`rounded-2xl ${postImage && "border"}`}
+                    className={`object-cover rounded-2xl h-72 w-full ${
+                      postImage && "border"
+                    }`}
                   />
                 </div>
               )}

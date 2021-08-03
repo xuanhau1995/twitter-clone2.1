@@ -28,8 +28,9 @@ function InputTweet({
         <div className="flex space-x-2 flex-grow">
           <img
             alt="profile"
+            loading="eager"
             className="h-11 w-11 border border-gray-100 rounded-full opacity-75 hover:opacity-100 cursor-pointer transition-all duration-500"
-            src="https://scontent-xsp1-3.xx.fbcdn.net/v/t1.6435-9/213684244_1932209123622709_7165151028738961550_n.jpg?_nc_cat=107&_nc_rgb565=1&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=utPGcbhzS6IAX_gt3Gj&_nc_ht=scontent-xsp1-3.xx&oh=ed9e70ec18476d42290d29d2eee341fe&oe=60F29795"
+            src="https://res.cloudinary.com/lxhdev/image/upload/v1627745273/small_1606582662438_55e386e84c.jpg"
           />
           <div className="w-full pl-2">
             <input
