@@ -98,9 +98,6 @@ function InputTweet({
           </div>
         </div>
       </div>
-      <button className="h-14 w-14 bg-blue-400 rounded-full fixed bottom-16 right-4 flex sm:hidden justify-center items-center shadow-2xl ">
-        <PlusIcon className="h-5 text-white" />
-      </button>
     </>
   );
 }

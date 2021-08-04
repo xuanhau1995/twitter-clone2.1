@@ -34,7 +34,7 @@ function FeedItems({
           <div className="py-1">
             <p className="text-sm leading-1 text-gray-700 mr-4">{content}</p>
             {imagesTweet && (
-              <div className="py-2">
+              <div className="py-2 w-full">
                 <img
                   alt="images-tweet"
                   src={imagesTweet}

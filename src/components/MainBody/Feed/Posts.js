@@ -23,7 +23,7 @@ function Posts({
             src="https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300"
             className="h-11 w-11 rounded-full"
           />
-          <div className=" flex flex-col pl-2">
+          <div className=" flex flex-col pl-2 w-full z-0 relative">
             <div className="flex flex-row items-center space-x-1">
               <h1 className="font-semibold text-sm flex items-center whitespace-nowrap">
                 {displayName} <BadgeCheckIcon className="h-4 text-blue-400" />
@@ -39,7 +39,7 @@ function Posts({
             <div className="py-1">
               <p className="text-sm leading-1 text-gray-700 mr-4">{message}</p>
               {postImage && (
-                <div className="py-2 relative rounded-2xl z-10">
+                <div className="py-2 rounded-2xl z-0 w-full">
                   <img
                     alt="images-tweet"
                     loading="eager"
